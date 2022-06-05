@@ -1,12 +1,17 @@
 BIKE SHARING ANALYSIS
 
 OVERVIEW
+
 This project picks up from the idea of entering a partnership to start a bike sharing business in Des Moines, Iowa, modeled after the Citi Bike sharing program in New York City.  I used Tableau as the primary tool for visualizing my proposal for investors.  Extract data was taken from Citi’s bike sharing dataset and downloaded into Tableau.  After analyzing data for the month of August, worksheets were created, and a story was developed to share.  
 
 RESULTS
+
 For our bike trip analysis, Pandas was first used to change the "tripduration" column in the original dataset from an integer to a datetime datatype in the new dataset.  Using this updated datatype, visualizations were created to:
+
 •	Show the length of time that bikes are checked out for all riders and genders
+
 •	Show the number of bike trips for all riders and genders for each hour of each day of the week
+
 •	Show the number of bike trips for each type of user and gender for each day of the week.
 
 [link to dashboard] https://public.tableau.com/app/profile/preston.clark8164/viz/Book1_16543392268360/Deliverable2Story?publish=yes
@@ -14,7 +19,7 @@ For our bike trip analysis, Pandas was first used to change the "tripduration" c
 ![image](https://user-images.githubusercontent.com/100803302/172064380-526289a9-9e51-40fc-9100-93e0e9d8ce6c.png)
 
 
-Two data points that stand out among all the assessed data categories are user type and gender.  Although Citi Bike is available for everyone’s use, it does offer a subscription-based service. Among the total rides taken in the month of August, the following visual reveals that 81% of the rides were taken by individuals with a subscription.
+Two key data points that stand out among all the assessed data categories are user type and gender.  Although Citi Bike is available for everyone’s use, it does offer a subscription-based service. Among the total rides taken in the month of August, the following visual reveals that 81% of the rides were taken by individuals with a subscription.
 
 ![image](https://user-images.githubusercontent.com/100803302/172064396-6a56f87e-b0d3-45b0-8ec3-89d6ca4bb78c.png)
 
@@ -31,7 +36,7 @@ Bike Repairs:  An id number is associated with each bike in the system. This all
 
 ![image](https://user-images.githubusercontent.com/100803302/172064474-40e27771-227d-492b-a995-65b7428695e0.png)
 
-Bike Utilization:  Another way of seeing how often a bike is used based on each bike's id number.
+Bike Utilization:  Another way of seeing how often a bike is used based on each bike's unique id number.
 
 ![image](https://user-images.githubusercontent.com/100803302/172064487-4b4d0131-c4a4-4782-b0e2-36e426fe1102.png)
 
