@@ -1,10 +1,10 @@
-BIKE SHARING ANALYSIS
+#BIKE SHARING ANALYSIS
 
-OVERVIEW
+##OVERVIEW
 
 This project picks up from the idea of entering a partnership to start a bike sharing business in Des Moines, Iowa, modeled after the Citi Bike sharing program in New York City.  I used Tableau as the primary tool for visualizing my proposal for investors.  Extract data was taken from Citi’s bike sharing dataset and downloaded into Tableau.  After analyzing data for the month of August, worksheets were created, and a story was developed to share.  
 
-RESULTS
+##RESULTS
 
 For our bike trip analysis, Pandas was first used to change the "tripduration" column in the original dataset from an integer to a datetime datatype in the new dataset.  Using this updated datatype, visualizations were created to:
 
@@ -42,7 +42,7 @@ Bike Utilization:  Another way of seeing how often a bike is used based on each 
 
 [link to dashboard] https://public.tableau.com/app/profile/preston.clark8164/viz/Book2_16543439952690/Deliverable3Story?publish=yes
 
-SUMMARY
+##SUMMARY
 
 Based on the data obtained for the month of August, most rides were taken by individuals with a subscription Citi Bike’s service.  However, there is no data that details the conditions of having a subscription.  For example, are there costs associated with having a subscription?  Are there other disclosures or benefits for subscribers that we are unaware of?
 
